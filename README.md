@@ -8,7 +8,9 @@ This project is designed to create a basic quiz experience where users can answe
 
 # Features
 • Multiple-Choice Questions: Users can select answers from a list of options.
+
 • Score Tracking: The app keeps track of correct answers and displays the final score.
+
 • Dynamic Question Loading: Questions are loaded dynamically using JavaScript.
 
 # Getting Started
