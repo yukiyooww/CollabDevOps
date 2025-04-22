@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="min-h-screen flex flex-col items-center justify-center p-4">
+    <form class="text-center">
+      <h2 class="font-semibold text-base mb-3">Which of the following is an example of a symmetric encryption algorithm?</h2>
+      <div class="flex flex-col space-y-1 mb-4 text-left text-sm max-w-xs mx-auto">
+        <label class="flex items-center space-x-2">
+          <input type="radio" name="encryption" value="RSA" />
+          <span>RSA</span>
+        </label>
+        <label class="flex items-center space-x-2">
+          <input type="radio" name="encryption" value="AES" />
+          <span>AES</span>
+        </label>
+        <label class="flex items-center space-x-2">
+          <input type="radio" name="encryption" value="Diffie-Hellman" />
+          <span>Diffie-Hellman</span>
+        </label>
+        <label class="flex items-center space-x-2">
+          <input type="radio" name="encryption" value="Encryption" />
+          <span>Encryption</span>
+        </label>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white text-sm px-4 py-1 rounded">Submit</button>
+      <div class="mt-2 text-xs">Correct!</div>
+      <div class="text-xs mt-1">Score: 1 / 1</div>
+    </form>
+  </div>
+</body>
+</html>
