@@ -25,7 +25,9 @@ To run the Quiz App, follow these steps:
 
 # Project Structure
 • index.html: The main HTML file containing the quiz structure.
+
 • style.css: CSS file for styling the quiz layout.
+
 • script.js: JavaScript file handling quiz logic and functionality.
 # Contributing
 Contributions are welcome! Feel free to add more questions or enhance the app's features.
